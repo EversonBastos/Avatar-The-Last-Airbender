@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Avatar - Semana do Zero Ao Programador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagem/Logo_de_Avatar.png" alt="Logo Avatar">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="aang" data-name="Avatar Aang" data-description="Aang foi um Nômade do Ar é o Avatar durante a Guerra dos Cem Anos. Como o Avatar é o único capaz de realizar a dobra dos quatro elementos.">
+            <img
+              src="./src/imagem/card-aang.jpg"
+              alt="Personagem Aang"
+            />
+          </li>
+          <li class="personagem" id="katara" data-name="Katara" data-description="É uma mestra de dominação de água,a ultima dobradora da sua tribo, depois de perder sua mãe em um ataque da Nação do Fogo e seu pai partir para lutar na Guerra.">
+            <img
+              src="./src/imagem/card-katara.jpg"
+              alt="Personagem Katara"
+            />
+          </li>
+
+          <li class="personagem" id="sokka" data-name="Sokka" data-description="Sokka é um guerreiro, ele e sua irmã, Katara, encontraram um iceberg com um garoto Nômade do Ar congelado, que havia permanecido por 100 anos.">
+            <img
+              src="./src/imagem/card-sokka.jpg"
+              alt="Personagem Sokka"
+            />
+          </li>
+
+          <li class="personagem" id="toph" data-name="Toph Beifong" data-description="Toph, é uma mestre de Dobra de Terra, Cega desde o nascimento, com sua dobra lhe deu a habilidade de enchergar pelas vibrações que passam pelo chão.">
+            <img
+              src="./src/imagem/card-toph.jpg"
+              alt="Personagem Toph"
+            />
+          </li>
+
+          <li class="personagem" id="zuko" data-name="Principe Zuko" data-description="Zuko o membro da Equipe Avatar, inicialmente era concentrado em capturar o Avatar, dando fim ao seu banimento e recuperando sua honra.">
+            <img
+              src="./src/imagem/card-zuko.jpg"
+              alt="Personagem Zuko"
+            />
+          </li>
+
+          <li class="personagem" id="iroh" data-name="Iroh" data-description="Iroh um mestre de Dobra de Fogo e um mentor para seu sobrinho, o príncipe Zuko.É o primogênito do Senhor do Fogo Azulon e o irmão mais velho de Ozai.">
+            <img
+              src="./src/imagem/card-iroh.jpg"
+              alt="Personagem Iroh"
+            />
+          </li>
+
+          <li class="personagem" id="azula" data-name="Princesa Azula" data-description="Da Nação do Fogo, filha do Senhor do Fogo Ozai, e a irmã mais nova de seu inimigo, o principe Zuko. Caracterizada por dobrar um fogo azul e raios.">
+            <img
+              src="./src/imagem/card-azula.jpg"
+              alt="Personagem Azula"
+            />
+          </li>
+
+          <li class="personagem" id="ozai" data-name="Senhor do Fogo Ozai" data-description=" Ele é o pai do Príncipe Zuko e da Princesa Azula. Como todo Senhor do Fogo, e antes do final da guerra, acredita-se ter sido o dominador de fogo mais poderoso.">
+            <img
+              src="./src/imagem/card-ozai.jpg"
+              alt="Personagem Ozai"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagem/card-aang.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Aang</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Aang foi um Nômade do Ar é o Avatar durante a Guerra dos Cem Anos. Como o Avatar é o único capaz de realizar a dobra dos quatro elementos."
+          </p>
+        </div>
+      </section>
+
+      <aside class="menu-lateral">
+        <ul>
+            <li>
+                <a href="https://github.com/EversonBastos" target="_blanc"><img src="./src/imagem/github.svg" alt="icone GitHub" class="icone"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/éverson-bastos-da-silva-8a2275202/"target="_blanc"><img src="./src/imagem/linkedin-in.svg" alt="icone Linkedin" class="icone"></a>
+            </li>
+        </ul>
+        </aside>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
